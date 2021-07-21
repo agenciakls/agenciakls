@@ -2,7 +2,7 @@ export default function HomeBanner() {
     return (
         <div className="home-section home-topo container-fluid ">
             <div className="row">
-                <div className="home-banner col-md-12" none="background-image: url('/img/background-banner-desktop.png');">
+                <div className="home-banner col-md-12" style={{backgroundImage: "url('/img/background-banner-desktop.png')"}}>
                     <div className="area-feature container">
                         <div className="row row-feature">
                             <div className="box-feature col-md-6">
@@ -10,7 +10,7 @@ export default function HomeBanner() {
                                 </h3>
                                 <div className="text-padded">
                                     <h4>
-                                        <span>A agência que pensa fora da caixa! A YXE ajuda você a concretizar sua ideia, desde o planejamento até a veiculação e a análise de resultados.
+                                        <span>Já imaginou sua empresa vendendo mais e gerando lucros? Nós te ajudamos a chegar lá!
                                         </span>
                                     </h4>
                                 </div>
@@ -19,8 +19,12 @@ export default function HomeBanner() {
                                     </button>
                                 </a>
                             </div>
+                            <div className="col-md-6">
+                                <img src="/img/home-img.png" className="img-fluid" />
+                            </div>
                         </div>
                     </div>
+                    
                     <div className="list-socials">
                         <div className="single-socials">
                             <a href="https://pt-br.facebook.com/AgenciaYxe/" target="_blank">

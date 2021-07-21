@@ -8,13 +8,13 @@ export default function HomeCertification() {
                 <div className="content-certification">
                     <div className="list-certification row justify-content-center">
                         <div className="single-certification col-md-4 col-6">
-                            <Image width={500} height={300} src="/img/certification/selo-google.png" alt="" />
+                            <img src="/img/certification/selo-google.png" alt="" />
                         </div>
                         <div className="single-certification col-md-4 col-6">
-                            <Image width={500} height={300} src="/img/certification/selo-fenapro.png" alt="" />
+                            <img src="/img/certification/selo-fenapro.png" alt="" />
                         </div>
                         <div className="single-certification col-md-4 col-6">
-                            <Image width={500} height={300} src="/img/certification/selo-cenp.png" alt="" />
+                            <img src="/img/certification/selo-cenp.png" alt="" />
                         </div>
                     </div>
                 </div>

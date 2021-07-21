@@ -5,11 +5,7 @@ export default function HomeTips () {
                 <h1>BLOG
                 </h1>
                 <hr />
-                <p className="description-tips text-center">Para
-                    <strong>vender
-                    </strong> um serviço é preciso ter
-                    <strong>autoridade no assunto
-                    </strong>!
+                <p className="description-tips text-center">Para <strong>vender</strong> um serviço é preciso ter <strong>autoridade no assunto</strong>!
                 </p>
                 <div className="row list-tips list-posts">
                     <div className="col-md-4 col-sm-6">
@@ -32,10 +28,8 @@ export default function HomeTips () {
                                 <div className="img-default" none="background-image: url('https://www.yxe.com.br/novo/wp-content/uploads/2020/07/chatbot-o-futuro-do-atendimento-300x300.jpg');">
                                 </div>
                                 <div className="text">
-                                    <h2>CHATBOTS: O FUTURO DO ATENDIMENTO
-                                    </h2>
-                                    <span className="view-more">Ver Mais
-                                    </span>
+                                    <h2>CHATBOTS: O FUTURO DO ATENDIMENTO </h2>
+                                    <span className="view-more">Ver Mais</span>
                                 </div>
                             </div>
                         </a>

@@ -5,7 +5,7 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-md-2 footer-data">
                         <div className="element-footer">
-                            <Image width={500} height={300} src="/img/logo.png" className="img-fluid footer-logo" alt="" />
+                            <img src="/img/logo.png" className="img-fluid footer-logo" alt="" />
                         </div>
                         <div className="element-footer">
                             <div className="footer-site">

@@ -1,16 +1,15 @@
-import Image from 'next/image'
 
 export default function Header() {
     return(
         <header>
-            <div className="header-area" none="background-image: url('/img/background-banner-desktop.png');">
+            <div className="header-area" style={{backgroundImage: "url('/img/background-banner-desktop.png')"}}>
                 <div className="container">
                     <div className="header-background">
                     </div>
                     <div className="header-main">
                         <div className="logo">
                             <a href="https://www.yxe.com.br/novo">
-                                <Image width={500} height={300} src="/img/logo.png" alt="" />
+                                <img src="/img/logo.png" alt="" />
                             </a>
                             <div className="list-socials">
                                 <div className="single-socials">

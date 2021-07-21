@@ -1,17 +1,27 @@
-import styles from '../styles/Home.module.css'
 import Header from './parts/header'
 import HomeBanner from './parts/home-banner'
 import Nav from './parts/nav'
 import HomeServices from './parts/home-services'
+import HomeCall from './parts/home-call'
+import HomeTips from './parts/home-tips'
+import HomeCommunication from './parts/home-communication'
+import HomeCertification from './parts/home-certification'
+import PreFooter from './parts/pre-footer'
+import Footer from './parts/footer'
  
-export default function Home() {
-
+export default function newsite() {
     return (
         <div>
             <Header />
             <Nav />
             <HomeBanner />
             <HomeServices />
+            <HomeCall />
+            <HomeTips />
+            <HomeCommunication />
+            <HomeCertification />
+            <PreFooter />
+            <Footer />
         </div>
     )
 }
