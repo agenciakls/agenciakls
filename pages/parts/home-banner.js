@@ -21,7 +21,7 @@ export default function HomeBanner() {
                                 </a>
                             </div>
                             <div className="col-md-6">
-                                <Image src="/img/home-img.png" alt="Banner Fundo" className="img-fluid" />
+                                <Image src="/img/home-img.png" width={528} height={539} alt="Banner Fundo" className="img-fluid" />
                             </div>
                         </div>
                     </div>

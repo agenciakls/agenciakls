@@ -10,7 +10,7 @@ export default function Header() {
                     <div className="header-main">
                         <div className="logo">
                             <a href="/home">
-                                <Image src="/img/logo.png" alt="Logo - Agência KLS" />
+                                <Image src="/img/logo.png" width={182} height={71} alt="Logo - Agência KLS" />
                             </a>
                             <div className="list-socials">
                                 <div className="single-socials">

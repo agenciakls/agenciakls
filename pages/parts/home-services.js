@@ -13,7 +13,7 @@ export default function HomeServices() {
                         <div className="col-md-4">
                             <div className="single-service">
                                 <div className="img-service">
-                                    <Image src="/img/icons/ico-marketing-digital.png" alt="" />
+                                    <Image src="/img/icons/marketing-digital.png" height={500} width={500} alt="" />
                                 </div>
                                 <h3 className="title-service">
                                     MARKETING DIGITAL
@@ -26,7 +26,7 @@ export default function HomeServices() {
                         <div className="col-md-4">
                             <div className="single-service">
                                 <div className="img-service">
-                                    <Image src="/img/icons/ico-video-marketing.png" alt="" />
+                                    <Image src="/img/icons/video-marketing.png" height={500} width={500} alt="" />
                                 </div>
                                 <h3 className="title-service">
                                     VÍDEO MARKETING
@@ -39,7 +39,7 @@ export default function HomeServices() {
                         <div className="col-md-4">
                             <div className="single-service">
                                 <div className="img-service">
-                                    <Image src="/img/icons/ico-publicidade.png" alt="" />
+                                    <Image src="/img/icons/publicidade.png" height={500} width={500} alt="" />
                                 </div>
                                 <h3 className="title-service">
                                     PUBLICIDADE
