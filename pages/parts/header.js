@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export default function Header() {
     return(
@@ -8,24 +9,24 @@ export default function Header() {
                     </div>
                     <div className="header-main">
                         <div className="logo">
-                            <a href="https://www.yxe.com.br/novo">
-                                <img src="/img/logo.png" alt="" />
+                            <a href="/home">
+                                <Image src="/img/logo.png" alt="Logo - Agência KLS" />
                             </a>
                             <div className="list-socials">
                                 <div className="single-socials">
-                                    <a href="https://pt-br.facebook.com/AgenciaYxe/" target="_blank">
+                                    <a href="https://pt-br.facebook.com/AgenciaYxe/" rel="noreferrer" target="_blank">
                                         <i className="fab fa-facebook-square">
                                         </i>
                                     </a>
                                 </div>
                                 <div className="single-socials">
-                                    <a href="https://www.instagram.com/agenciayxe/" target="_blank">
+                                    <a href="https://www.instagram.com/agenciayxe/" rel="noreferrer" target="_blank">
                                         <i className="fab fa-instagram">
                                         </i>
                                     </a>
                                 </div>
                                 <div className="single-socials">
-                                    <a href="https://www.youtube.com/user/YxePublicidade" target="_blank">
+                                    <a href="https://www.youtube.com/user/YxePublicidade" rel="noreferrer" target="_blank">
                                         <i className="fab fa-youtube">
                                         </i>
                                     </a>
@@ -73,13 +74,13 @@ export default function Header() {
                     </div>
                     <div id="pre-list-container" className="header-buttons">
                         <div className="header-list-buttons">
-                            <a href="tel:+552133252407" target="_blank">
+                            <a href="tel:+552133252407" rel="noreferrer" target="_blank">
                                 <button className="button-call" type="button">
                                     <i className="fas fa-phone">
                                     </i> (21) 3325-2407
                                 </button>
                             </a>
-                            <a href="tel:+552131180419" target="_blank">
+                            <a href="tel:+552131180419" rel="noreferrer" target="_blank">
                                 <button className="button-call" type="button">
                                     <i className="fas fa-phone">
                                     </i> (21) 3118-0419

@@ -7,7 +7,7 @@ export default function Home() {
 
     return (
         <div className={styles.container}>
-            <Image src={LogoImg} />
+            <Image src={LogoImg} alt="Logo" />
             <p className={styles.paragraph}>Estamos construindo a melhor experiência pra você!</p>
         </div>
     )

@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function HomeCertification() {
     return (
         <section className="home-certification section">
@@ -8,13 +10,13 @@ export default function HomeCertification() {
                 <div className="content-certification">
                     <div className="list-certification row justify-content-center">
                         <div className="single-certification col-md-4 col-6">
-                            <img src="/img/certification/selo-google.png" alt="" />
+                            <Image src="/img/certification/selo-google.png" alt="" />
                         </div>
                         <div className="single-certification col-md-4 col-6">
-                            <img src="/img/certification/selo-fenapro.png" alt="" />
+                            <Image src="/img/certification/selo-fenapro.png" alt="" />
                         </div>
                         <div className="single-certification col-md-4 col-6">
-                            <img src="/img/certification/selo-cenp.png" alt="" />
+                            <Image src="/img/certification/selo-cenp.png" alt="" />
                         </div>
                     </div>
                 </div>

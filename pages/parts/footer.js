@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Footer() {
     return(
         <footer>
@@ -5,25 +7,25 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-md-2 footer-data">
                         <div className="element-footer">
-                            <img src="/img/logo.png" className="img-fluid footer-logo" alt="" />
+                            <Image src="/img/logo.png" className="img-fluid footer-logo" alt="Logo - Agência KLS" />
                         </div>
                         <div className="element-footer">
                             <div className="footer-site">
                                 <div className="list-socials">
                                     <div className="single-socials">
-                                        <a href="https://pt-br.facebook.com/AgenciaYxe/" target="_blank">
+                                        <a href="https://pt-br.facebook.com/AgenciaYxe/" rel="noreferrer" target="_blank">
                                             <i className="fab fa-facebook-square">
                                             </i>
                                         </a>
                                     </div>
                                     <div className="single-socials">
-                                        <a href="https://www.instagram.com/agenciayxe/" target="_blank">
+                                        <a href="https://www.instagram.com/agenciayxe/" rel="noreferrer" target="_blank">
                                             <i className="fab fa-instagram">
                                             </i>
                                         </a>
                                     </div>
                                     <div className="single-socials">
-                                        <a href="https://www.youtube.com/user/YxePublicidade" target="_blank">
+                                        <a href="https://www.youtube.com/user/YxePublicidade" rel="noreferrer" target="_blank">
                                             <i className="fab fa-youtube">
                                             </i>
                                         </a>

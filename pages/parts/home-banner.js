@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function HomeBanner() {
     return (
         <div className="home-section home-topo container-fluid ">
@@ -15,31 +17,30 @@ export default function HomeBanner() {
                                     </h4>
                                 </div>
                                 <a href="">
-                                    <button className="btn-default btn-inverted">SAIBA MAIS
-                                    </button>
+                                    <button className="btn-default btn-inverted">SAIBA MAIS</button>
                                 </a>
                             </div>
                             <div className="col-md-6">
-                                <img src="/img/home-img.png" className="img-fluid" />
+                                <Image src="/img/home-img.png" alt="Banner Fundo" className="img-fluid" />
                             </div>
                         </div>
                     </div>
                     
                     <div className="list-socials">
                         <div className="single-socials">
-                            <a href="https://pt-br.facebook.com/AgenciaYxe/" target="_blank">
+                            <a href="https://pt-br.facebook.com/AgenciaYxe/" rel="noreferrer" target="_blank">
                                 <i className="fab fa-facebook-square">
                                 </i>
                             </a>
                         </div>
                         <div className="single-socials">
-                            <a href="https://www.instagram.com/agenciayxe/" target="_blank">
+                            <a href="https://www.instagram.com/agenciayxe/" rel="noreferrer" target="_blank">
                                 <i className="fab fa-instagram">
                                 </i>
                             </a>
                         </div>
                         <div className="single-socials">
-                            <a href="https://www.youtube.com/user/YxePublicidade" target="_blank">
+                            <a href="https://www.youtube.com/user/YxePublicidade" rel="noreferrer" target="_blank">
                                 <i className="fab fa-youtube">
                                 </i>
                             </a>
