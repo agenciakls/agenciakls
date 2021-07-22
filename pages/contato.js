@@ -3,7 +3,7 @@ import HeaderTitle from './parts/header-title'
 import PreFooter from './parts/pre-footer'
 import Footer from './parts/footer'
 
-export default function Contato() {
+export default function contato() {
     return(
         
         <div>

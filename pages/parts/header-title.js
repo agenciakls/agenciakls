@@ -4,8 +4,8 @@ class HeaderTitle extends React.Component {
     render() {
         const ContentTitle = this.props.title;
         return (
-            <section class="content-title">
-                <div class="container">
+            <section className="content-title">
+                <div className="container">
                     <h1>{ContentTitle ? ContentTitle : "Página"}</h1>
                 </div>
             </section>

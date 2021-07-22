@@ -12,7 +12,7 @@ export default function TrabalheConosco() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 form-contact">
-                                <form id="form-work" action="" method="post" enctype="multipart/form-data">
+                                <form id="form-work" action="" method="post">
                                     <h2 className="pt-2 pb-2">Informações Pessoais</h2>
                                     <div className="row">
                                         <div className="col-md-6">
@@ -37,11 +37,11 @@ export default function TrabalheConosco() {
                                             <input type="text" name="nascimento" className="input-contato" placeholder="Data de Nascimento" id="field-nascimento" />
                                         </div>
                                         <div className="col-md-3">
-                                            <label for="masculino" style={{padding: "10px"}}>
+                                            <label style={{padding: "10px"}}>
                                                 <input type="radio" name="sexo" id="masculino" className="input-contato" value="masculino" />
                                                  Masculino
                                             </label>
-                                            <label for="feminino" style={{padding: "10px"}}>
+                                            <label style={{padding: "10px"}}>
                                                 <input type="radio" name="sexo" id="feminino" className="input-contato" value="feminino" />
                                                  Feminino
                                             </label>

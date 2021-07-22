@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from 'next/link'
 
 export default function Footer() {
     return(
@@ -39,12 +40,9 @@ export default function Footer() {
                             <h3>Endereço
                             </h3>
                             <div className="text-footer">
-                                <p>Avenida das Américas, 17.150 - Bloco 1 Sala 205
-                                </p>
-                                <p>Recreio dos Bandeirantes, Rio de Janeiro - RJ
-                                </p>
-                                <p>22790-704
-                                </p>
+                                <p>Avenida das Américas, 17.150 - Bloco 1 Sala 205</p>
+                                <p>Recreio dos Bandeirantes, Rio de Janeiro - RJ</p>
+                                <p>22790-704</p>
                             </div>
                         </div>
                     </div>
