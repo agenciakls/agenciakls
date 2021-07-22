@@ -12,7 +12,7 @@ import Footer from './parts/footer'
 export default function newsite() {
     return (
         <div>
-            <Header />
+            <Header background={false} />
             <Nav />
             <HomeBanner />
             <HomeServices />
