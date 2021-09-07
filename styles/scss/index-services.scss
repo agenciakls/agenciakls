@@ -5,7 +5,7 @@
 	    text-align: center;
 	    font-size: 35px;
 	    z-index: 2;
-		color: $corText; 
+		color: $corPrincipal; 
 		margin: 15px 0px;
 	}
 	hr {
@@ -22,32 +22,38 @@
 			color: $corSecundaria;
 		}
 		.single-service {
-			background-color: $corBranco;
+			background-color: $corGrayPrincipal;
 			display: flex;
 			justify-content: center;
-			box-shadow: 0px 0px 20px #d2d2d2;
 			flex-flow: column;
-			align-items: center;
 			margin: 10px 0px 10px;
 			border-radius: 25px;
 			min-height: 330px;
+			padding: 10px 20px;
 			.img-service {
 				display: block;
-				height: 90px;
-				width: 90px;
-				margin: 15px 0px;
+				margin: 15px auto;
+				font-size: 4rem;
+				color: $corSecundaria;
 			}
 			.title-service {
-				color: $corText;
+				color: $corSecundaria;
 				padding: 5px 0px;
 				font-size: 23px;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: normal;
 			}
 			p.text-service {
-				color: #9D9D9D;
+				color: $corText;
 			    font-size: 16px;
 			    font-weight: normal;
 			    padding: 10px 25px;
 			    text-align: center;
+			}
+			ul {
+				color: $corText;
+				text-transform: uppercase;
 			}
 			.link-service {
 				padding: 0px;

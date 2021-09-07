@@ -73,41 +73,16 @@ input[type=button], input[type=submit], input[type=reset], button, .btn-default 
     }
     &.btn-inverted {
         background-color: $corBranco;
-        color: $corPrincipal;
+        color: $corSecundaria;
         &:hover {
             background-color: $corGrayPrincipal;
         }
         &.border {
-            border: solid 4px $corPrincipalSuaveEscura;
+            border: solid 4px $corSecundariaSuave !important;
         }
     }
 }
 
-/* CONTACT FORM */
-span.wpcf7-not-valid-tip {
-    display: block !important;
-    background-color: #d01414 !important;
-    color: #fff !important;
-    font-size: 1em !important;
-    font-weight: normal !important;
-    text-transform: uppercase !important;
-    padding: 6px 12px !important;
-    margin: 0px !important;
-}
-div.wpcf7-response-output {
-    background-color: #efefef !important;
-    color: #cc2e2e !important;
-    border: dashed 2px #cc2e2e !important;
-    text-align: center !important;
-    text-transform: uppercase !important;
-    font-size: 19px !important;
-    font-weight: 600 !important;
-    margin: 0px !important;
-    padding: 6px 3px !important;
-}
-.form-check-input {
-    position: relative !important;
-}
 /* PAGINATION */
 .pagination{
     display: block;
@@ -143,37 +118,6 @@ div.wpcf7-response-output {
     }
 }
 
-/* WORDPRESS */
-img.alignright { float: right; margin: 0 0 1em 1em; }
-img.alignleft { float: left; margin: 0 1em 1em 0; }
-img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
-.alignright { float: right; }
-.alignleft { float: left; }
-.aligncenter { display: block; margin-left: auto; margin-right: auto; }
-
-#gallery-1 {
-    margin: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    .gallery-item {
-        min-width: 290px;
-        display: block;
-        flex: 0 0 33%;
-        float: none !important;
-        text-align: center;
-        padding: 15px;
-        img {
-            border: none !important;
-            border-radius: 10px;
-            width: 100%;
-            height: auto;
-        }
-    }
-    .gallery-caption {
-        margin-left: 0;
-    }
-}
 
 @media screen and (max-width: $xsWidth) {
     h1 { font-size: 30px; }

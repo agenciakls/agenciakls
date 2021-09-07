@@ -21,7 +21,6 @@
 					display: block;
 					font-size: 18px;
 					padding: 14px 10px;
-					// text-transform: uppercase;
 					transition: all 0.3s ease;
 					border-bottom: solid 1px $corPrincipalEscuraDark;
 					cursor: pointer;
@@ -80,6 +79,8 @@
 				color: $corBranco;
 				.box-feature {
 					h3 {
+						font-weight: 600;
+						font-size: 4rem;
 						margin: 10px 0px;
 					}
 					.text-padded {
@@ -89,8 +90,8 @@
 							color: $corPrincipal;
 							display:inline;
 							white-space:pre-wrap;
-							line-height: 45px;
-							font-size: 19px;
+							line-height: 3.5rem;
+							font-size: 1.75rem;
 							padding: 5px;
 							padding-left: 0px;
 							box-shadow: -10px 0 0 $corBranco; /* box shadow is emulating padding liek a charme */

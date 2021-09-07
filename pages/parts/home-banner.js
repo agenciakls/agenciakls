@@ -8,7 +8,7 @@ export default function HomeBanner() {
                     <div className="area-feature container">
                         <div className="row row-feature">
                             <div className="box-feature col-md-6">
-                                <h3>Focados em gerar crescimento ao seu negócio.
+                                <h3>Aumente seus resultados
                                 </h3>
                                 <div className="text-padded">
                                     <h4>
