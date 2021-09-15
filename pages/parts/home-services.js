@@ -9,8 +9,8 @@ export default function HomeServices() {
                 <p className="description-services text-center">Somos uma agência de <strong>Publicidade</strong> e <strong>Marketing Digital</strong> focada no resultado dos nossos clientes.
                 </p>
                 <div className="content-services">
-                    <div className="row">
-                        <div className="col-md-4">
+                    <div className="row d-flex align-items-stretch">
+                        <div className="col-md-4 my-2">
                             <div className="single-service">
                                 <div className="img-service">
                                     <i className="far fa-thumbs-up"></i>
@@ -29,7 +29,7 @@ export default function HomeServices() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 my-2">
                             <div className="single-service">
                                 <div className="img-service">
                                     <i className="fas fa-laptop"></i>
@@ -49,7 +49,7 @@ export default function HomeServices() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 my-2">
                             <div className="single-service">
                                 <div className="img-service">
                                     <i class="fas fa-bullhorn"></i>
@@ -69,7 +69,7 @@ export default function HomeServices() {
                             </div>
                         </div>
                         
-                        <div className="col-md-4">
+                        <div className="col-md-4 my-2">
                             <div className="single-service">
                                 <div className="img-service">
                                     <i className="far fa-thumbs-up"></i>
@@ -88,7 +88,7 @@ export default function HomeServices() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 my-2">
                             <div className="single-service">
                                 <div className="img-service">
                                     <i className="far fa-thumbs-up"></i>
@@ -108,7 +108,7 @@ export default function HomeServices() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 my-2">
                             <div className="single-service">
                                 <div className="img-service">
                                     <i className="far fa-thumbs-up"></i>

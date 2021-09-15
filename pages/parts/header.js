@@ -3,8 +3,12 @@ import React from "react";
 import Link from "next/link"
 
 class Header extends React.Component {
+    toggleMenu() {
+        alert('test');
+    }
     render() {
         const backgroundProps = this.props.background;
+        
         return(
             <div>
                 <header className={(backgroundProps ? "header-background" : "header-normal")}>
@@ -38,7 +42,7 @@ class Header extends React.Component {
                                     </div>
                                 </div>
                                 <div className="nav-button">
-                                    <div className="hamburger hamburger--squeeze">
+                                    <div className="hamburger hamburger--squeeze" onClick={this.toggleMenu}>
                                         <div className="hamburger-box">
                                             <div className="hamburger-inner"></div>
                                         </div>

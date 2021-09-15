@@ -37,8 +37,8 @@ export default function Footer() {
                             <h3>Contato</h3>
                             <div className="text-footer">
                                 <div className="row">
-                                    <div className="col-md-6"><button class="btn-default btn-sm d-block btn-border">(21) 98911-3353</button></div>
-                                    <div className="col-md-6"><button class="btn-default btn-sm d-block btn-inverted">Entre em contato</button></div>
+                                    <div className="col-md-6"><button className="btn-default btn-sm d-block btn-border">(21) 98911-3353</button></div>
+                                    <div className="col-md-6"><button className="btn-default btn-sm d-block btn-inverted">Entre em contato</button></div>
                                 </div>
                             </div>
                         </div>
