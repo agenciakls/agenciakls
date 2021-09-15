@@ -18,9 +18,6 @@ export default function Home() {
             <HomeServices />
             <HomeCall />
             <HomeTips />
-            <HomeCommunication />
-            <HomeCertification />
-            <PreFooter />
             <Footer />
         </div>
     )
