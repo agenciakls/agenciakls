@@ -57,7 +57,7 @@ input:focus, textarea:focus, button:focus { outline: none !important; }
 input[type=button], input[type=submit], input[type=reset], button, .btn-default {
     display: inline-block;
     background-color: $corPrincipal;
-    border: none;
+    border: solid 5px $corPrincipal;
     margin: 5px;
     padding: 10px 50px;
     color: $corBranco;
@@ -73,6 +73,7 @@ input[type=button], input[type=submit], input[type=reset], button, .btn-default 
     }
     &.btn-inverted {
         background-color: $corBranco;
+        border-color: $corBranco;
         color: $corSecundaria;
         &:hover {
             background-color: $corGrayPrincipal;
@@ -80,6 +81,22 @@ input[type=button], input[type=submit], input[type=reset], button, .btn-default 
         &.border {
             border: solid 5px $corSecundariaSuave !important;
         }
+    }
+    &.btn-border {
+        background-color: transparent;
+        color: $corBranco;
+        border: solid 5px $corBranco;
+    }
+    &.btn-red {
+        background-color: $corSecundaria;
+    }
+    &.btn-sm {
+        border-width: 2px;
+        font-size: 16px;
+        padding: 7px 25px;
+    }
+    &.d-block {
+        width: 100%;
     }
 }
 

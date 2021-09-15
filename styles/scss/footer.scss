@@ -3,7 +3,7 @@ footer {
 	background-color: $corSecundaria;
 	color: $corBranco;
 	.footer-data { text-align: left; }
-	.footer-about { text-align: right; }
+	.footer-about { text-align: left; }
 	.element-footer {
 		padding: 10px 0px;
 		h3 {
@@ -42,13 +42,21 @@ footer {
 				}
 			}
 		}
+		.links-importants {
+			li {
+				padding: 5px 0px;
+				a {
+					color: white;
+				}
+			}
+		}
 	}
 	.footer-logo {
 		width: 100%;
 		max-width: 450px;
 	}
 	.list-socials {
-		text-align: center;
+		text-align: left;
 	    .single-socials {
 		    display: inline-block;
 			padding: 2px 10px;
