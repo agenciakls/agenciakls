@@ -52,7 +52,7 @@ export default function HomeServices() {
                         <div className="col-md-4 my-2">
                             <div className="single-service">
                                 <div className="img-service">
-                                    <i class="fas fa-bullhorn"></i>
+                                    <i className="fas fa-bullhorn"></i>
                                 </div>
                                 <h3 className="title-service">
                                     gestão de tráfego
