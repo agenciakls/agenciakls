@@ -41,7 +41,7 @@ export default function contato() {
                                                 <i className="fab fa-instagram"></i>
                                             </div>
                                             <div className="contact-icon">
-                                                @agenciakls
+                                                @agenciakls a
                                             </div>
                                         </div>
                                     </a>
